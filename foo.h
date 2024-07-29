@@ -4,7 +4,8 @@ int fun(int a, int b){
     return a + b;
 }
 
-typedef struct  {
+// use typedef when you are just defining the structure of a struct and not declaring a variable
+typedef struct {
     int a;
     int b;
 } Fun;
